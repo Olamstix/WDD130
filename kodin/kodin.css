@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.logo{
+    width: 200px;
+    margin: 0 0 0 5em;
+}
+
+nav {
+    margin: 2em 0 0 60em;
+}
+
+nav a{
+    margin: 20px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+h1{
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+
+#hero-box{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(auto-fit, minmax(30ch, auto));
+    gap: 2rem;
+    padding: 10vmin 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-desc{
+}
+
+.hero-img {
+    width: 600px;
+}
+
+h2{
+    text-align: center;
+    margin: 30px;
+    font-weight: 400;
+}
+
+.sec-2-desc{
+    padding: 0 135px 0 125px;
+}
+
+.sub-section-img{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(auto-fit, minmax(30ch, auto));
+    gap: 15rem;
+    padding: 10vmin 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-sec-img{
+    width: 600px;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+footer img{
+    width: 150px;
+    margin: 1em 0 0 7em;
+}
