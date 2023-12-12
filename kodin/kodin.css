@@ -150,3 +150,13 @@ footer img{
     width: 700px;
     height: 40vh;
 }
+
+.site-plan{
+    float: right;
+    margin: 30px;
+    font-size: 22px;
+}
+
+.site-plan a{
+    text-decoration: none;
+}
