@@ -9,7 +9,7 @@ header{
     display: flex;
     width: 100%;
     height: 100px;
-    background-color: lightgray;
+    background-color: #d4d4d4;
 }
 
 .logo{
@@ -18,7 +18,7 @@ header{
 }
 
 nav {
-    margin: 2em 0 0 55em;
+    margin: 2em 0 0 75em;
 }
 
 nav a{
@@ -26,6 +26,10 @@ nav a{
     text-decoration: none;
     color: #000;
     cursor: pointer;
+}
+
+nav a:hover{
+    color: #378CE8;
 }
 
 h1{
@@ -48,6 +52,7 @@ h1{
 
 .hero-img {
     width: 600px;
+    border-radius: 20px;
 }
 
 h2{
@@ -71,7 +76,8 @@ h2{
 }
 
 .sub-sec-img{
-    width: 600px;
+    width: 500px;
+    border-radius: 20px;
 }
 
 footer{
@@ -83,4 +89,64 @@ footer{
 footer img{
     width: 150px;
     margin: 1em 0 0 7em;
+}
+
+
+/* About Us */
+
+
+.about-us{
+    text-align: center;
+    margin: 20px;
+}
+
+.about-main-img{
+    width: 85%;
+    height: 60vh;
+    border-radius: 20px;
+    margin-left: 9em;
+}
+
+.section-details p{
+    margin: 2em 0 0 7.5em;
+    font-size: 20px;
+}
+
+.ssi-1{
+    width: 700px;
+    height: 40vh;
+}
+
+.ssi-2{
+    width: 700px;
+    height: 40vh;
+}
+
+/* Our Support */
+
+.our-support{
+    text-align: center;
+    margin: 20px;
+}
+
+.our-support-img {
+    width: 85%;
+    height: 60vh;
+    border-radius: 20px;
+    margin-left: 9em;
+}
+
+.section-details p {
+    margin: 2em 0 0 7.5em;
+    font-size: 20px;
+}
+
+.ssi-1 {
+    width: 700px;
+    height: 40vh;
+}
+
+.ssi-2 {
+    width: 700px;
+    height: 40vh;
 }
